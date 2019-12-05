@@ -19,9 +19,9 @@ def STONKS_csv():
     #data_list.set_index('timestamp', inplace = True)
     data_list['high'].plot()
     plt.legend()
-    g = plt.show()
-    return (g)
-    #print (data_value)
+    plt.savefig('graphs/' + symbol + key)
+    print ("wtf")
+    #print (dat
 
 
 STONKS_csv()
