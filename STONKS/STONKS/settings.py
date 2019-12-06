@@ -124,3 +124,4 @@ USE_TZ = True
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
 STATIC_URL = '/static/'
+STATIC_ROOT = "/home/david/stock_django/STONKS/static"

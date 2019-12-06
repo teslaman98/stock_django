@@ -19,8 +19,7 @@ def STONKS_csv():
     #data_list.set_index('timestamp', inplace = True)
     data_list['high'].plot()
     plt.legend()
-    plt.savefig('graphs/' + symbol + key)
-    print ("wtf")
+    plt.savefig('/home/david/stock_django/STONKS/static/images' + symbol + key)
     #print (dat
 
 

@@ -1,3 +1,5 @@
+{% load staticfiles %}
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -15,7 +17,8 @@
           {% block content %}
           <div class="container">
               <p>test
-                <img src="/home/david/stock_django/STONKS/dispstock/app_graph/graphs/AAPLhigh.png">
+                  
+                  <img src="{static 'images/'}" height="42" width="42" >
               </p>
           </div>
           {% endblock %}
